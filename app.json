@@ -1,14 +1,14 @@
 {
   "expo": {
-    "name": "test-app",
-    "slug": "test-app",
+    "name": "PhotoSharing",
+    "slug": "PhotoSharing",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/icon_.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/splash_.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -21,9 +21,10 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/icon_.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "photosharing.expo.com"
     },
     "web": {
       "favicon": "./assets/favicon.png"
